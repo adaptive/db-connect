@@ -64,6 +64,8 @@ db-connect-quickstart
 
 In the future, we may consider adding support for more databases such as Oracle, MongoDB, and Redis. If you want to contribute you can track the code in the [`cloudflared`](https://github.com/cloudflare/cloudflared/tree/master/dbconnect) repository.
 
+CouchDB and PouchDB use HTTP endpoints, therefore these databases can connect directly to Argo Tunnel not requiring the use of `db-connect`.
+
 # Documentation
 
 ## `new DbConnect(options)`
